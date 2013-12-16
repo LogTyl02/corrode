@@ -3,14 +3,15 @@
     <story>
         <identification>
             <ifid>35E9B323-FF1C-4900-B5D8-020ABC7DFF1B</ifid>
-            <format>zcode</format>
+            <format>glulx</format>
         </identification>
         <bibliographic>
             <title>Untitled</title>
             <author>Anonymous</author>
-            <headline>An Interactive Fiction</headline>
+            <headline>An Autumn Fable.</headline>
             <genre>Fiction</genre>
             <firstpublished>2013</firstpublished>
+            <description>Where is it? You know it has to be here somewhere. The storm is getting worse.</description>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
@@ -29,10 +30,10 @@
             <generatorversion>6G60</generatorversion>
             <originated>2013-12-16</originated>
         </colophon>
-        <zcode>
+        <glulx>
             <serial>131216</serial>
             <release>1</release>
             <compiler>Inform 7 build 6G60</compiler>
-        </zcode>
+        </glulx>
     </story>
 </ifindex>

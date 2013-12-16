@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x02A9DB30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x02FFB4A8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02B178A8"/>
-  <item nodeId="node-0x02A9DB30">
+  <activeNode nodeId="node-0x03088818"/>
+  <item nodeId="node-0x02FFB4A8">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Welcome&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 131216 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Workshed Entrance&#x000A;It's as dark and loud as a coffin. Rain crashes against the metal roof; rain pours down the small windows, and you can barely see the wind whipping the pine trees in the garden.&#x000A;&#x000A;An old storm lantern hangs on a peg.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Welcome&#x000A;An Autumn Fable.&#x000A;Release 1 / Serial number 131216 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Workshed Entrance&#x000A;It's as dark and loud as a coffin. Rain crashes against the metal roof; rain pours down the small windows, and you can barely see the wind whipping the pine trees in the garden.&#x000A;&#x000A;An old storm lantern hangs on a peg.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02A9DD60"/>
-      <child nodeId="node-0x02A9D9E0"/>
-      <child nodeId="node-0x02A9D190"/>
-      <child nodeId="node-0x02A9D660"/>
-      <child nodeId="node-0x02A9D6D0"/>
-      <child nodeId="node-0x02A9D7B0"/>
-      <child nodeId="node-0x02B176E8"/>
+      <child nodeId="node-0x02FFB518"/>
+      <child nodeId="node-0x02FF4988"/>
+      <child nodeId="node-0x02FF4B58"/>
+      <child nodeId="node-0x02FFCE60"/>
+      <child nodeId="node-0x02FFCED0"/>
+      <child nodeId="node-0x02FFCFB0"/>
+      <child nodeId="node-0x02FFE3C8"/>
+      <child nodeId="node-0x0302EBE8"/>
+      <child nodeId="node-0x0302EB78"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9DD60">
+  <item nodeId="node-0x02FFB518">
     <command xml:space="preserve">look under jacket</command>
     <result xml:space="preserve">You find the bottle of whiskey!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -27,10 +29,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9DDD0"/>
+      <child nodeId="node-0x02FFB588"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9DDD0">
+  <item nodeId="node-0x02FFB588">
     <command xml:space="preserve">look under hat</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -38,10 +40,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9DCF0"/>
+      <child nodeId="node-0x02FFB650"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9DCF0">
+  <item nodeId="node-0x02FFB650">
     <command xml:space="preserve">look under fedora</command>
     <result xml:space="preserve">You find the ancient key!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -49,10 +51,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9DF20"/>
+      <child nodeId="node-0x02FF4580"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9DF20">
+  <item nodeId="node-0x02FF4580">
     <command xml:space="preserve">look under boxes</command>
     <result xml:space="preserve">You find the skeleton!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -60,10 +62,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D200"/>
+      <child nodeId="node-0x02FF46A0"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D200">
+  <item nodeId="node-0x02FF46A0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  a skeleton&#x000A;  an ancient key&#x000A;  a bottle of whiskey&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -71,10 +73,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D270"/>
+      <child nodeId="node-0x02FF4710"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D270">
+  <item nodeId="node-0x02FF4710">
     <command xml:space="preserve">get jacket</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -82,10 +84,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D2E0"/>
+      <child nodeId="node-0x02FF4780"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D2E0">
+  <item nodeId="node-0x02FF4780">
     <command xml:space="preserve">get fedora</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -93,10 +95,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D4A0"/>
+      <child nodeId="node-0x02FF47F0"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D4A0">
+  <item nodeId="node-0x02FF47F0">
     <command xml:space="preserve">wear jacket</command>
     <result xml:space="preserve">You slip into the leather jacket. Snazzy!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -104,10 +106,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9DAC0"/>
+      <child nodeId="node-0x02FF4918"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9DAC0">
+  <item nodeId="node-0x02FF4918">
     <command xml:space="preserve">wear fedora</command>
     <result xml:space="preserve">You stick the hat atop your bonce. Now where did you leave that bullwhip?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -115,7 +117,7 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02A9D9E0">
+  <item nodeId="node-0x02FF4988">
     <command xml:space="preserve">look under boxes</command>
     <result xml:space="preserve">You find the skeleton!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -123,10 +125,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9DA50"/>
+      <child nodeId="node-0x02FF4A78"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9DA50">
+  <item nodeId="node-0x02FF4A78">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  a skeleton&#x000A;    a bullwhip&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -134,10 +136,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D890"/>
+      <child nodeId="node-0x02FF4AE8"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D890">
+  <item nodeId="node-0x02FF4AE8">
     <command xml:space="preserve">drop skeleton</command>
     <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -145,7 +147,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02A9D190">
+  <item nodeId="node-0x02FF4B58">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Room 506&#x000A;The room is dark and menacing during the storm; rain sheets on the windows, and you can barely see the flash of the lighthouse only a few miles away.&#x000A;&#x000A;A hurricane lantern hangs from a peg.&#x000A;&#x000A;You can also see a cabinet (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -153,10 +155,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D970"/>
+      <child nodeId="node-0x02FFCD10"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D970">
+  <item nodeId="node-0x02FFCD10">
     <command xml:space="preserve">look under cabinet</command>
     <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -164,10 +166,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D900"/>
+      <child nodeId="node-0x02FFCD80"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D900">
+  <item nodeId="node-0x02FFCD80">
     <command xml:space="preserve">get lantern</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -175,10 +177,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D510"/>
+      <child nodeId="node-0x02FFCDF0"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D510">
+  <item nodeId="node-0x02FFCDF0">
     <command xml:space="preserve">look under cabinet</command>
     <result xml:space="preserve">You shine the hurricane lantern under the cabinet...&#x000A;&#x000A;Billy's lost marble! So that's where it got to!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -186,15 +188,48 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02A9D660">
+  <item nodeId="node-0x02FFCE60">
     <command xml:space="preserve">get lantern</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302E9B8"/>
+    </children>
   </item>
-  <item nodeId="node-0x02A9D6D0">
+  <item nodeId="node-0x0302E9B8">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Cluttered Work Area&#x000A;You had a reputable work space here, once. Now the work bench is covered in milk crates and unorganized tools. Your little black toolbox sits in the corner, open from the last time you used it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302EA28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302EA28">
+    <command xml:space="preserve">get matchbox</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302EA98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302EA98">
+    <command xml:space="preserve">light lantern</command>
+    <result xml:space="preserve">This dangerous act would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02FFCED0">
     <command xml:space="preserve">get lmap</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -202,10 +237,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D740"/>
+      <child nodeId="node-0x02FFCF40"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D740">
+  <item nodeId="node-0x02FFCF40">
     <command xml:space="preserve">get lamp</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -213,23 +248,26 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02A9D7B0">
+  <item nodeId="node-0x02FFCFB0">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Cluttered Work Area&#x000A;You had a reputable work space here, once. Now the work bench is covered in milk crates and unorganized tools. Your little black toolbox sits in the corner, open from the last time you used it.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Cluttered Work Area&#x000A;You had a reputable work space here, once. Now the work bench is covered in milk crates and unorganized tools. Your little black toolbox sits in the corner, open from the last time you used it. The workshop extends to the north, against the back wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D430"/>
-      <child nodeId="node-0x02A9D350"/>
-      <child nodeId="node-0x02A9D3C0"/>
-      <child nodeId="node-0x02A9DE40"/>
-      <child nodeId="node-0x02A9E0E0"/>
-      <child nodeId="node-0x02B17598"/>
+      <child nodeId="node-0x02FFD020"/>
+      <child nodeId="node-0x02FFD090"/>
+      <child nodeId="node-0x02FFD1E0"/>
+      <child nodeId="node-0x02FFD3A0"/>
+      <child nodeId="node-0x02FFD480"/>
+      <child nodeId="node-0x02FFE198"/>
+      <child nodeId="node-0x02FFE6D8"/>
+      <child nodeId="node-0x0303AE10"/>
+      <child nodeId="node-0x0302EE18"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D430">
+  <item nodeId="node-0x02FFD020">
     <command xml:space="preserve">look bench</command>
     <result xml:space="preserve">You see nothing special about the work bench.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -237,7 +275,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02A9D350">
+  <item nodeId="node-0x02FFD090">
     <command xml:space="preserve">look tools</command>
     <result xml:space="preserve">Tools.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -245,10 +283,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D820"/>
+      <child nodeId="node-0x02FFD100"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D820">
+  <item nodeId="node-0x02FFD100">
     <command xml:space="preserve">look box</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -256,10 +294,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D580"/>
+      <child nodeId="node-0x02FFD170"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D580">
+  <item nodeId="node-0x02FFD170">
     <command xml:space="preserve">look toolbox</command>
     <result xml:space="preserve">Lovely little thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -267,7 +305,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02A9D3C0">
+  <item nodeId="node-0x02FFD1E0">
     <command xml:space="preserve">examine bo</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -275,10 +313,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9D5F0"/>
+      <child nodeId="node-0x02FFD250"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9D5F0">
+  <item nodeId="node-0x02FFD250">
     <command xml:space="preserve">examine box</command>
     <result xml:space="preserve">Lovely little thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -286,10 +324,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9E000"/>
+      <child nodeId="node-0x02FFD2C0"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9E000">
+  <item nodeId="node-0x02FFD2C0">
     <command xml:space="preserve">examine chest</command>
     <result xml:space="preserve">Lovely little thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -297,10 +335,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9DF90"/>
+      <child nodeId="node-0x02FFD330"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9DF90">
+  <item nodeId="node-0x02FFD330">
     <command xml:space="preserve">examine toolbox</command>
     <result xml:space="preserve">Lovely little thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -308,7 +346,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02A9DE40">
+  <item nodeId="node-0x02FFD3A0">
     <command xml:space="preserve">examine toolbox</command>
     <result xml:space="preserve">Lovely little thing.&#x000A;&#x000A;In the toolbox is a box of matches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -316,10 +354,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02A9E070"/>
+      <child nodeId="node-0x02FFD410"/>
     </children>
   </item>
-  <item nodeId="node-0x02A9E070">
+  <item nodeId="node-0x02FFD410">
     <command xml:space="preserve">get matches</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -327,7 +365,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02A9E0E0">
+  <item nodeId="node-0x02FFD480">
     <command xml:space="preserve">get matches</command>
     <result xml:space="preserve">You grab the box of matches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -335,7 +373,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02B17598">
+  <item nodeId="node-0x02FFE198">
     <command xml:space="preserve">get toolbox</command>
     <result xml:space="preserve">You don't need to be carrying that around with you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -343,12 +381,12 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02B17608"/>
-      <child nodeId="node-0x02B17988"/>
-      <child nodeId="node-0x02B17918"/>
+      <child nodeId="node-0x02FFE208"/>
+      <child nodeId="node-0x02FFE278"/>
+      <child nodeId="node-0x02FFE2E8"/>
     </children>
   </item>
-  <item nodeId="node-0x02B17608">
+  <item nodeId="node-0x02FFE208">
     <command xml:space="preserve">get tools</command>
     <result xml:space="preserve">You grab the tools.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -356,7 +394,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02B17988">
+  <item nodeId="node-0x02FFE278">
     <command xml:space="preserve">get work bench</command>
     <result xml:space="preserve">You grab the work bench.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -364,7 +402,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02B17918">
+  <item nodeId="node-0x02FFE2E8">
     <command xml:space="preserve">get match</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -372,10 +410,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02B178A8"/>
+      <child nodeId="node-0x02FFE358"/>
     </children>
   </item>
-  <item nodeId="node-0x02B178A8">
+  <item nodeId="node-0x02FFE358">
     <command xml:space="preserve">get box of matches</command>
     <result xml:space="preserve">You grab the box of matches and shove it into your pockets.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -383,7 +421,280 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02B176E8">
+  <item nodeId="node-0x02FFE6D8">
+    <command xml:space="preserve">get matchbox</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FFE748"/>
+      <child nodeId="node-0x0302EFD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FFE748">
+    <command xml:space="preserve">get box of matches</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FFE898"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FFE898">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Workshed Entrance&#x000A;It's as dark and loud as a coffin. Rain crashes against the metal roof; rain pours down the small windows, and you can barely see the wind whipping the pine trees in the garden.&#x000A;&#x000A;An old storm lantern hangs on a peg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FFE828"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FFE828">
+    <command xml:space="preserve">get lantern</command>
+    <result xml:space="preserve">You light the matches, and grab the lantern.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FFE7B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FFE7B8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a storm lantern (providing light)&#x000A;  a box of matches&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0302EFD8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Workshed Entrance&#x000A;It's as dark and loud as a coffin. Rain crashes against the metal roof; rain pours down the small windows, and you can barely see the wind whipping the pine trees in the garden.&#x000A;&#x000A;An old storm lantern hangs on a peg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302EE88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302EE88">
+    <command xml:space="preserve">get lantern</command>
+    <result xml:space="preserve">You light the matches, and grab the lantern.&#x000A;You discard the empty matchbox.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302EEF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302EEF8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a storm lantern (providing light)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302F048"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302F048">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Cluttered Work Area&#x000A;You had a reputable work space here, once. Now the work bench is covered in milk crates and unorganized tools. Your little black toolbox sits in the corner, open from the last time you used it. The workshop extends to the north, against the back wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302F0B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302F0B8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You venture into the bleakness...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302F128"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302F128">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cluttered Work Area&#x000A;You had a reputable work space here, once. Now the work bench is covered in milk crates and unorganized tools. Your little black toolbox sits in the corner, open from the last time you used it. The workshop extends to the north, against the back wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0303AE10">
+    <command xml:space="preserve">get box of matches</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0303AE80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0303AE80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Workshed Entrance&#x000A;It's as dark and loud as a coffin. Rain crashes against the metal roof; rain pours down the small windows, and you can barely see the wind whipping the pine trees in the garden.&#x000A;&#x000A;An old storm lantern hangs on a peg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0303AEF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0303AEF0">
+    <command xml:space="preserve">get lantern</command>
+    <result xml:space="preserve">You light the matches, and grab the lantern.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0303AF60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0303AF60">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a storm lantern (providing light)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0302EE18">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The light from the windows doesn't reach back there. You need some source of light to see.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302ED38"/>
+      <child nodeId="node-0x03088508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302ED38">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302EDA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302EDA8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Cluttered Work Area&#x000A;You had a reputable work space here, once. Now the work bench is covered in milk crates and unorganized tools. Your little black toolbox sits in the corner, open from the last time you used it. The workshop extends to the north, against the back wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302EF68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302EF68">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03088508">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x030885E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x030885E8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cluttered Work Area&#x000A;You had a reputable work space here, once. Now the work bench is covered in milk crates and unorganized tools. Your little black toolbox sits in the corner, open from the last time you used it. The workshop extends to the north, against the back wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03088658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03088658">
+    <command xml:space="preserve">get matchbox</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x030886C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x030886C8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Workshed Entrance&#x000A;It's as dark and loud as a coffin. Rain crashes against the metal roof; rain pours down the small windows, and you can barely see the wind whipping the pine trees in the garden.&#x000A;&#x000A;An old storm lantern hangs on a peg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03088738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03088738">
+    <command xml:space="preserve">get lantern</command>
+    <result xml:space="preserve">You light the matches, and grab the lantern.&#x000A;You discard the empty matchbox.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x030887A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x030887A8">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Cluttered Work Area&#x000A;You had a reputable work space here, once. Now the work bench is covered in milk crates and unorganized tools. Your little black toolbox sits in the corner, open from the last time you used it. The workshop extends to the north, against the back wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03088818"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03088818">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You venture into the bleakness...&#x000A;&#x000A;Dark Workshop&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02FFE3C8">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -391,10 +702,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02B17758"/>
+      <child nodeId="node-0x02FFE438"/>
     </children>
   </item>
-  <item nodeId="node-0x02B17758">
+  <item nodeId="node-0x02FFE438">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Cluttered Work Area&#x000A;You had a reputable work space here, once. Now the work bench is covered in milk crates and unorganized tools. Your little black toolbox sits in the corner, open from the last time you used it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -402,10 +713,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02B177C8"/>
+      <child nodeId="node-0x02FFE4A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02B177C8">
+  <item nodeId="node-0x02FFE4A8">
     <command xml:space="preserve">get box</command>
     <result xml:space="preserve">(the box of matches)&#x000A;You grab the box of matches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -413,12 +724,61 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02B17838"/>
+      <child nodeId="node-0x02FFE518"/>
     </children>
   </item>
-  <item nodeId="node-0x02B17838">
+  <item nodeId="node-0x02FFE518">
     <command xml:space="preserve">get toolbox</command>
     <result xml:space="preserve">You grab the toolbox.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0302EBE8">
+    <command xml:space="preserve">examine lantern</command>
+    <result xml:space="preserve">You can't remember how long you've had this thing. It's proven a worthwhile companion on every adventure you've been on. Its wick is still in perfect condition.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0302EB78">
+    <command xml:space="preserve">light lantern</command>
+    <result xml:space="preserve">This dangerous act would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302EB08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302EB08">
+    <command xml:space="preserve">burn lantern</command>
+    <result xml:space="preserve">This dangerous act would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302EC58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302EC58">
+    <command xml:space="preserve">get lantern</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0302ECC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0302ECC8">
+    <command xml:space="preserve">burn lantern</command>
+    <result xml:space="preserve">This dangerous act would achieve little.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
