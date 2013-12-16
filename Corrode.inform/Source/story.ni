@@ -24,14 +24,14 @@ Section 1 - Mechanics, Overloading Rules
 
 Section 2 - Lighting
 
-Brightness is a kind of value. The brightnesses are guttering, weak, radiant, and blazing.
+[Brightness is a kind of value. The brightnesses are guttering, weak, radiant, and blazing.
 
 A brightness can be adequate or inadequate. A brightness is usually adequate. Guttering is inadequate.
 
 Temperature is a kind of value. 100C specifies a temperature.
 
 A brightness has a temperature. The temperature of a brightness is usually 700C. The temperature of blazing is 1400C.
-The temperature of radiant is 1100C.
+The temperature of radiant is 1100C.]
 
 
 
@@ -44,13 +44,15 @@ Workshed Entrance is a room. "It's as dark and loud as a coffin. Rain crashes ag
 	There is a storm lantern in workshed entrance. "An old storm lantern hangs on a peg."
 		The description of the lantern is "You can't remember how long you've had this thing. It's proven a worthwhile companion on every adventure you've been on. Its wick [if the lantern has been lit] is partially burnt[otherwise]is still in perfect condition[end if]."
 		Instead of examining the lit lantern, say "It glows like a hundred fireflies."
-		Instead of burning the lit lantern:
-			say "The lantern is already lit."
-		Check burning:
-			if the noun is not the lantern, say "[The noun] should remain un-immolated."
-		Carry out burning the lantern:
-			now the lantern is lit.
 		
+	Instead of burning the lantern:
+	if the player carries the matchbox:
+		say "You light the lantern.";
+		now the lantern is lit.;
+		remove the matchbox from play;
+	otherwise:
+		say "You don't have anything to light it with.";
+			
 		The storm lantern is unlit.
 		Understand "lamp" as the storm lantern.
 		Instead of taking the lantern when the player is carrying a matchbox:
