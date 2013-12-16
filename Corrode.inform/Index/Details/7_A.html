@@ -209,7 +209,10 @@ direction or a door in the location of the actor: while the player's commands
 only lead to going actions with directions as nouns, going actions can also
 happen as a result of entering actions, and then the noun can indeed be
 a door.<p><hr><p><b>Typed commands leading to this action</b><p>
-<p class="hangingin2">&quot;go&quot;</p><p class="hangingin2">&quot;go [direction]&quot;</p><p><b>Named values belonging to this action</b><p>
+<p class="hangingin2">&quot;go&quot;</p><p class="hangingin2">&quot;go [direction]&quot;</p><p class="hangingin2">&quot;[a direction]&quot;&nbsp;<a href='inform://Extensions/Extensions/Aaron%20Reed/Keyword%20Interface.html' title="Keyword Interface by Aaron Reed" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</p><p class="hangingin2">&quot;go to [direction]&quot;&nbsp;<a href='inform://Extensions/Extensions/Aaron%20Reed/Extended%20Grammar.html' title="Extended Grammar by Aaron Reed" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</p><p class="hangingin2">&quot;climb [a direction]&quot;&nbsp;<a href='inform://Extensions/Extensions/Aaron%20Reed/Extended%20Grammar.html' title="Extended Grammar by Aaron Reed" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</p><p><b>Named values belonging to this action</b><p>
 room gone from - <i>room</i><br>
 room gone to - <i>object</i><br>
 door gone through - <i>object</i><br>
@@ -217,193 +220,229 @@ vehicle gone by - <i>object</i><br>
 thing gone with - <i>object</i><br>
 <p><b>Rules controlling this action</b><p>
 <p class="hangingin2">set action variables for&nbsp;&nbsp;&nbsp;&nbsp;<i>going</i>&nbsp;&nbsp;<font color="#800000">standard set going variables rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1547(code) {
+function pasteCode1645(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('standard set going variables rule');
 }
 </script>
-<a href="javascript:pasteCode1547()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1548(code) {
+<a href="javascript:pasteCode1645()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1646(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The standard set going variables rule is not listed in the setting action variables rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1548()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<br><p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>going north from Cluttered Work Area</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line68"><img border=0 src=inform:/Reveal.png></a></p>
+<a href="javascript:pasteCode1646()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<br><p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>going north from Cluttered Work Area</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line91"><img border=0 src=inform:/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>going nowhere</i>&nbsp;&nbsp;<font color="#800000">Small Kindnesses reporting on exits rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1647(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('Small Kindnesses reporting on exits rule');
+}
+</script>
+<a href="javascript:pasteCode1647()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1648(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The small kindnesses reporting on exits rule is not listed in the instead rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode1648()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href='inform://Extensions/Extensions/Aaron%20Reed/Small%20Kindnesses.html' title="Small Kindnesses by Aaron Reed" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</p>
 <br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going when the actor is on a supporter (called the chaise)</i>&nbsp;&nbsp;<font color="#800000">stand up before going rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1549(code) {
+function pasteCode1649(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('stand up before going rule');
 }
 </script>
-<a href="javascript:pasteCode1549()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1550(code) {
+<a href="javascript:pasteCode1649()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1650(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The stand up before going rule is not listed in the check going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1550()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1650()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">can't travel in what's not a vehicle rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1551(code) {
+function pasteCode1651(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t travel in what[=0x0027=]s not a vehicle rule');
 }
 </script>
-<a href="javascript:pasteCode1551()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1552(code) {
+<a href="javascript:pasteCode1651()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1652(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t travel in what[=0x0027=]s not a vehicle rule is not listed in the check going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1552()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1652()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">can't go through undescribed doors rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1553(code) {
+function pasteCode1653(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t go through undescribed doors rule');
 }
 </script>
-<a href="javascript:pasteCode1553()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1554(code) {
+<a href="javascript:pasteCode1653()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1654(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t go through undescribed doors rule is not listed in the check going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1554()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1654()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">can't go through closed doors rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1555(code) {
+function pasteCode1655(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t go through closed doors rule');
 }
 </script>
-<a href="javascript:pasteCode1555()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1556(code) {
+<a href="javascript:pasteCode1655()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1656(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t go through closed doors rule is not listed in the check going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1556()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1656()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">determine map connection rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1557(code) {
+function pasteCode1657(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('determine map connection rule');
 }
 </script>
-<a href="javascript:pasteCode1557()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1558(code) {
+<a href="javascript:pasteCode1657()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1658(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The determine map connection rule is not listed in the check going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1558()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1658()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">can't go that way rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1559(code) {
+function pasteCode1659(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t go that way rule');
 }
 </script>
-<a href="javascript:pasteCode1559()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1560(code) {
+<a href="javascript:pasteCode1659()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1660(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t go that way rule is not listed in the check going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1560()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">move player and vehicle rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1561(code) {
+<a href="javascript:pasteCode1660()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<font color="#800000">Small Kindnesses store former location rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1661(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('Small Kindnesses store former location rule');
+}
+</script>
+<a href="javascript:pasteCode1661()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1662(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The small kindnesses store former location rule is not listed in the carry out going rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode1662()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href='inform://Extensions/Extensions/Aaron%20Reed/Small%20Kindnesses.html' title="Small Kindnesses by Aaron Reed" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</p>
+<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">move player and vehicle rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1663(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('move player and vehicle rule');
 }
 </script>
-<a href="javascript:pasteCode1561()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1562(code) {
+<a href="javascript:pasteCode1663()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1664(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The move player and vehicle rule is not listed in the carry out going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1562()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1664()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">move floating objects rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1563(code) {
+function pasteCode1665(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('move floating objects rule');
 }
 </script>
-<a href="javascript:pasteCode1563()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1564(code) {
+<a href="javascript:pasteCode1665()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1666(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The move floating objects rule is not listed in the carry out going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1564()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1666()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">check light in new location rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1565(code) {
+function pasteCode1667(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('check light in new location rule');
 }
 </script>
-<a href="javascript:pasteCode1565()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1566(code) {
+<a href="javascript:pasteCode1667()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1668(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The check light in new location rule is not listed in the carry out going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1566()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1668()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor going</i>&nbsp;&nbsp;<font color="#800000">describe room gone into rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1567(code) {
+function pasteCode1669(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('describe room gone into rule');
 }
 </script>
-<a href="javascript:pasteCode1567()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1568(code) {
+<a href="javascript:pasteCode1669()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1670(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The describe room gone into rule is not listed in the report going rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1568()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1670()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <br><p>
 <!--CONTENT ENDS-->
 </font></body></html>

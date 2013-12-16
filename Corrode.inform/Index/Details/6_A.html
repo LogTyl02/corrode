@@ -210,75 +210,94 @@ either/or property, and also that, more controversially, one can only
 eat things currently being held. This means that a player standing next
 to a bush with berries who types EAT BERRIES will force a '(first taking
 the berries)' action.<p><hr><p><b>Typed commands leading to this action</b><p>
-<p class="hangingin2">&quot;eat [something preferably held]&quot;</p><p><b>Rules controlling this action</b><p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor eating</i>&nbsp;&nbsp;<font color="#800000">can't eat unless edible rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1539(code) {
+<p class="hangingin2">&quot;eat [something preferably held]&quot;</p><p class="hangingin2">&quot;use [an edible thing]&quot;&nbsp;<a href='inform://Extensions/Extensions/Aaron%20Reed/Small%20Kindnesses.html' title="Small Kindnesses by Aaron Reed" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</p><p><b>Rules controlling this action</b><p>
+<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>eating an inedible thing</i>&nbsp;&nbsp;<font color="#800000">Small Kindnesses don't implicitly take inedibles rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1635(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('Small Kindnesses don[=0x0027=]t implicitly take inedibles rule');
+}
+</script>
+<a href="javascript:pasteCode1635()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1636(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The small kindnesses don[=0x0027=]t implicitly take inedibles rule is not listed in the before rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode1636()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href='inform://Extensions/Extensions/Aaron%20Reed/Small%20Kindnesses.html' title="Small Kindnesses by Aaron Reed" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</p>
+<br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor eating</i>&nbsp;&nbsp;<font color="#800000">can't eat unless edible rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1637(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t eat unless edible rule');
 }
 </script>
-<a href="javascript:pasteCode1539()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1540(code) {
+<a href="javascript:pasteCode1637()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1638(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t eat unless edible rule is not listed in the check eating rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1540()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1638()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor eating</i>&nbsp;&nbsp;<font color="#800000">can't eat clothing without removing it first rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1541(code) {
+function pasteCode1639(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t eat clothing without removing it first rule');
 }
 </script>
-<a href="javascript:pasteCode1541()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1542(code) {
+<a href="javascript:pasteCode1639()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1640(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t eat clothing without removing it first rule is not listed in the check eating rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1542()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1640()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor eating</i>&nbsp;&nbsp;<font color="#800000">standard eating rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1543(code) {
+function pasteCode1641(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('standard eating rule');
 }
 </script>
-<a href="javascript:pasteCode1543()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1544(code) {
+<a href="javascript:pasteCode1641()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1642(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The standard eating rule is not listed in the carry out eating rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1544()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1642()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor eating</i>&nbsp;&nbsp;<font color="#800000">standard report eating rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1545(code) {
+function pasteCode1643(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('standard report eating rule');
 }
 </script>
-<a href="javascript:pasteCode1545()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1546(code) {
+<a href="javascript:pasteCode1643()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1644(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The standard report eating rule is not listed in the report eating rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1546()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode1644()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <br><p>
 <!--CONTENT ENDS-->
 </font></body></html>

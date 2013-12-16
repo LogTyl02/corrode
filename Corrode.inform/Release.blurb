@@ -10,7 +10,7 @@ release to "C:\Users\Dogleaf\Documents\GitHub\corrode\Corrode Materials\Release"
 
 ! Blorb instructions
 
-storyfile leafname "story.gblorb"
+storyfile leafname "Corrode.gblorb"
 storyfile "C:\Users\Dogleaf\Documents\GitHub\corrode\Corrode.inform\Build\output.ulx" include
 ifiction "C:\Users\Dogleaf\Documents\GitHub\corrode\Corrode.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
@@ -23,8 +23,8 @@ release file "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Small 
 placeholder [IFID] = "35E9B323-FF1C-4900-B5D8-020ABC7DFF1B"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2013"
-placeholder [TITLE] = "Untitled"
-placeholder [AUTHOR] = "Anonymous"
+placeholder [TITLE] = "Corrode"
+placeholder [AUTHOR] = "Dogleaf"
 placeholder [BLURB] = "Where is it? You know it has to be here somewhere. The storm is getting worse."
 
 ! Other material to release
@@ -33,12 +33,12 @@ source public
 
 ! Website instructions
 
-placeholder [ENCODEDSTORYFILE] = "story.gblorb.js"
+placeholder [ENCODEDSTORYFILE] = "Corrode.gblorb.js"
 template path "C:\Users\Dogleaf\Documents\GitHub\corrode\Corrode Materials\Templates"
 template path "C:\Users\Dogleaf\Documents\Inform\Templates"
 template path "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Templates"
 interpreter "Quixe" "g"
-base64 "C:\Users\Dogleaf\Documents\GitHub\corrode\Corrode.inform\Build\output.ulx" to "C:\Users\Dogleaf\Documents\GitHub\corrode\Corrode Materials\Release\interpreter\story.gblorb.js"
+base64 "C:\Users\Dogleaf\Documents\GitHub\corrode\Corrode.inform\Build\output.ulx" to "C:\Users\Dogleaf\Documents\GitHub\corrode\Corrode Materials\Release\interpreter\Corrode.gblorb.js"
 
 ! Website instructions
 
@@ -47,9 +47,9 @@ template path "C:\Users\Dogleaf\Documents\Inform\Templates"
 template path "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Templates"
 css
 website "Standard"
-status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line14"><img border=0 src=inform:/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line11"><img border=0 src=inform:/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line12"><img border=0 src=inform:/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line22"><img border=0 src=inform:/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
